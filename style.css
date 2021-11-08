@@ -1,0 +1,278 @@
+ /* * {
+     border:2px solid blue;  
+ }
+      */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+   
+    background-color: white;
+    padding: 32px 64px;
+    display: flex;
+    align-items: center; 
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+}
+
+img.foto{
+    border: 5px solid #00a2ff;
+    /* border: 5px solid rgb(161, 21, 21); */
+    
+    border-radius: 50%;
+    margin-bottom: -120px;
+    margin-right: 54px;
+    margin-left: 20px;
+    width:335px;
+    height:335px;
+    
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 84px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+p .t60{
+    color: rgba(0, 0, 0, 0.6); /*Preto com 60% de transparência*/
+    
+    
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6); /*Preto com 60% de transparência*/
+    /* margin: 10px; */
+    font-size: 20px;
+}
+
+.profissao{
+    font-size: 30px;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+/* Display
+Há 3 principais tipos de display: block, inline block, inline.
+block ocupa a linha inteira e é a default
+inline e inline block vc consegue colocar ao lado de outros elementos, pois não ocupam uma linha inteira.
+Esse recurso faz com que um elemento como, por exemplo, uma div, se encaixe ao lado de outro elemento mantendo-de do tamanho em que caiba seu conteúdo em vez de tomar a linha toda.
+*/
+
+.dados{
+    display: inline-block;
+    margin-bottom: 16px;
+    padding-top: 100px;
+}
+
+main{
+    display: flex;
+    padding: 40px 70px;
+}
+
+.coluna-menor img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.coluna-menor{
+    margin-top: 18px;
+    margin-left: 25px;
+    width: 488px;
+}
+
+.coluna-menor li{
+    display: flex;
+    margin-top: 42px;
+}
+
+.coluna-menor h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.coluna-menor h3{
+    font-size: 20px;
+}
+
+.coluna-menor p{
+    margin-top: 5px;
+    
+}
+
+.conteudo{
+    display: inline-block;
+}
+
+.linha{
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+}
+
+.experiencias .linha{ /*Apenas linha filha de experiencias*/
+    border-color:#4200ff
+}
+.experiencias, .formacao{
+    margin-top: 50px;
+}
+
+.formacao .linha{
+    border-color: #ffc700;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.coluna-maior {
+    margin-left: 40px;
+    font-size: 44px;
+}
+
+.coluna-maior h2 {
+    font-size: 42px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left:16px;
+}
+
+.habilidades h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.habilidade {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 16px;
+    width: 360px;
+}
+
+.habilidade h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.habilidade p {
+    font-size: 20px;
+}
+.habilidade li {
+    margin-top: 32px;
+    margin-bottom: 8px
+}
+
+.habilidade ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.habilidade li:first-child {
+    margin-top: 0px;
+}
+
+.progresso {
+    display: flex; /*para as filhas (barra) ficarem na mesma linha, uma ao lado da outra, formando a barra de progresso*/
+    width: 100%
+}
+
+.barra {
+    width: 20%;
+    height: 5px;
+    margin-top: 8px;
+    background-color: #4200ff;
+}
+
+.incompleto {
+    opacity: 0.2;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+}
+
+.projetos h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.projetos p {
+    font-size: 18px;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.projeto img {
+    margin-left: 16px;
+    width: 344px;
+    height: 190px;
+}
+
+.projeto {
+    width: 392px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 16px;
+}
+
+.projetos a {
+    display: inline-block;
+    background-color: #4200ff;
+    color: white;
+    padding: 8px 24px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #14004d;
+    color: white;
+    padding: 57.6px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+
