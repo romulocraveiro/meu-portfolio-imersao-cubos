@@ -1,31 +1,26 @@
 
      
-      /*  */
+      
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /*border:2px solid blue;  Essa propriedade serviu para visualizarmos as divs, delimitadas por bordas, durante a criação da página */
- }
-
+}
 
 header {
-    
     background-color: white;
     padding: 32px 64px;
     display: flex;
     align-items: center; 
-    
 }
 
 img.foto{
     border: 5px solid #00a2ff;
-    /* border: 5px solid rgb(161, 21, 21); */
-    
     border-radius: 50%;
     margin-bottom: -120px;
     margin-right: 54px;
-    margin-left: 20px;
+    margin-left: 50px;
     width:335px;
     height:335px;
 }
@@ -47,9 +42,6 @@ h3{
     font-size: 16px;
 }
 
-h1 span{
-    font-weight: bold;
-}
 
 p .t60{
     color: rgba(0, 0, 0, 0.6); /*Preto com 60% de transparência*/
@@ -81,6 +73,7 @@ Esse recurso faz com que um elemento como, por exemplo, uma div, se encaixe ao l
     display: inline-block;
     margin-bottom: 16px;
     padding-top: 100px;
+    margin-left: 40px;
 }
 
 main{
@@ -98,7 +91,8 @@ main{
 .coluna-menor{
     margin-top: 18px;
     margin-left: 25px;
-    width: 588px;
+    width: 388px; 
+    flex: 0 0 auto;     
 }
 
 .coluna-menor li{
@@ -116,7 +110,6 @@ main{
 
 .coluna-menor p{
     margin-top: 5px;
-    
 }
 
 .conteudo{
@@ -270,6 +263,5 @@ footer {
     padding: 57.6px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
-
 }
 

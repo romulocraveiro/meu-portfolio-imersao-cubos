@@ -12,13 +12,15 @@
 * Eu não estava conseguindo colocar ícones de algumas instituições. Para resolver o problema, é possível ancorar a logomarca de uma empresa quando ela aparece nos resultados de pesquisa do Google, bastando para isso clicar com o botão direito do mouse, copiar o endereço da imagem e colar no atributo href.
 * _I wasn't getting icons from some institutions. To resolve the issue, one can anchor a company's logo when it appears in Google search results by simply right-clicking, copying the image address, and pasting it in the href attribute._
 
+## Problemas que ainda não consegui resolver / Problems I haven't been able to solve yet
 
+* Quando abro a página no local host, título, profissão e coluna maior ficam alinhadas. Porém, na página criada pelo GitHub, o header ganha proporção maior
 
 ## Algumas lições que aprendi / Some lessons I learned
 
 * Em CSS, quando vamos estilizar a borda de alguma div, temos que informar 3 coisas: quantos pixels, o tipo, e a cor.
 * Existem elementos que reservam, ocupam uma linha inteira, outras ficam no meio do texto mesmo.
-* O elemento <span><span/> é um dos que ficam no meio do texto(Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos `class` ou `id)`
+* O elemento `<span><span/>` é um dos que ficam no meio do texto(Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos `class` ou `id)`
 * A div, a h1, etc.,  por padrão, reservam uma linha inteira.
 * Chamamos a essa característica "display".
 * Para agrupar o conteúdo ao lado da imagem estilizamos "display: inline-block;" no css
